@@ -4,8 +4,8 @@
 #include <vector>
 #include <fstream>
 
-#include <common/camera.h>
-#include <common/renderer.h>
+#include "camera.h"
+#include "renderer.h"
 
 Renderer::Renderer(unsigned int w, unsigned int h)
 {
